@@ -5,7 +5,16 @@
     text-decoration: none;
 }
 
+@media (max-width: 600px) {
+    nav ul li {
+        display: block; /* Menampilkan item sebagai blok */
+        margin: 10px 0; /* Margin vertikal untuk spasi */
+    }
 
+    header {
+        text-align: left; /* Meratakan teks ke kiri pada ponsel */
+    }
+}
 
 .home{
     background-image: url(img/gambar1.png);
